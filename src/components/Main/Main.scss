@@ -1,0 +1,32 @@
+.Main {
+    flex-grow: 1;
+}
+
+.fade-enter {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.fade-enter-active {
+    opacity: 1;
+}
+
+.fade-exit {
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.fade-exit-active {
+    opacity: 0;
+}
+
+.Wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    z-index: 4;
+    transform: translateX(0);
+}

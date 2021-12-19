@@ -1,0 +1,18 @@
+.Home {
+    margin: 0 50px 50px;
+    padding: 166px 100px 466px 307px;
+    background: var(--black) url("./assets/background.jpg") no-repeat center/cover;
+    color: var(--white);
+    border-radius: 16px;
+}
+
+.Home__title {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 95px;
+    max-width: 895px;
+}
+
+.Home__text {
+    max-width: 586px;
+}

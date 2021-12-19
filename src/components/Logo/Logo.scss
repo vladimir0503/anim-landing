@@ -1,0 +1,14 @@
+.Logo {
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--black);
+    font-weight: 800;
+
+    &::after {
+        content: "";
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background-color: var(--accent);
+    }
+}

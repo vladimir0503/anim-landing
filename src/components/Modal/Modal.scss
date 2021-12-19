@@ -1,0 +1,37 @@
+.Modal {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal__content {
+    min-width: 400px;
+    max-width: 700px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--white);
+}
+
+.Modal__closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 14px 34px;
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 62px;
+    font-family: inherit;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
